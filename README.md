@@ -1,4 +1,5 @@
-# 🔐 Authentication App
+﻿# PRODIGY_FS_02
+# Employee Management System
 
 A simple and secure authentication app built with Node.js and Express. This application handles user registration, login, authentication using JWT (JSON Web Tokens), and protects private routes.
 
