@@ -21,8 +21,7 @@ A simple and secure authentication app built with Node.js and Express. This appl
 - **Bcrypt**
 - **Dotenv**
 
-```bash
-echo "## ⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 
 1. Clone the repository:
    \`\`\`bash
@@ -46,4 +45,4 @@ echo "## ⚙️ Setup Instructions
    \`\`\`bash
    npm start
    \`\`\`
-" >> README.md
+
