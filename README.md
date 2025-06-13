@@ -21,33 +21,31 @@ A simple and secure authentication app built with Node.js and Express. This appl
 - **Bcrypt**
 - **Dotenv**
 
-## Setup
+##     Setup
 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd chat-app
+cd PRODIGY_FS_02
 ```
 
 2. Install backend dependencies:
 ```bash
+cd Backend
 npm install
 ```
 
 3. Install frontend dependencies:
 ```bash
-cd client
+cd Frontend
 npm install
 ```
 
 4. Create a `.env` file in the root directory with the following variables:
 ```
-MONGODB_URI=mongodb://localhost:27017/chat-app
+MONGODB_URI=your-mongodb-url
 JWT_SECRET=your-super-secret-key-change-this-in-production
 PORT=5000
 ```
-4. Start the server:
-   \`\`\`bash
-   npm start
-   \`\`\`
+
 
