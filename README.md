@@ -21,26 +21,31 @@ A simple and secure authentication app built with Node.js and Express. This appl
 - **Bcrypt**
 - **Dotenv**
 
-## ⚙️ Setup Instructions
+## Setup
 
 1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/yourusername/Authentication_app.git
-   cd Authentication_app
-   \`\`\`
+```bash
+git clone <repository-url>
+cd chat-app
+```
 
-2. Install dependencies:
-   \`\`\`bash
-   npm install
-   \`\`\`
+2. Install backend dependencies:
+```bash
+npm install
+```
 
-3. Set up your .env file:
-   \`\`\`
-   MONGO_URI=your_mongodb_connection
-   JWT_SECRET=your_jwt_secret
-   PORT=5000
-   \`\`\`
+3. Install frontend dependencies:
+```bash
+cd client
+npm install
+```
 
+4. Create a `.env` file in the root directory with the following variables:
+```
+MONGODB_URI=mongodb://localhost:27017/chat-app
+JWT_SECRET=your-super-secret-key-change-this-in-production
+PORT=5000
+```
 4. Start the server:
    \`\`\`bash
    npm start
