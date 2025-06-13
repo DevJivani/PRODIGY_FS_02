@@ -21,5 +21,29 @@ A simple and secure authentication app built with Node.js and Express. This appl
 - **Bcrypt**
 - **Dotenv**
 
-## 📁 Project Structure
+```bash
+echo "## ⚙️ Setup Instructions
 
+1. Clone the repository:
+   \`\`\`bash
+   git clone https://github.com/yourusername/Authentication_app.git
+   cd Authentication_app
+   \`\`\`
+
+2. Install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+3. Set up your .env file:
+   \`\`\`
+   MONGO_URI=your_mongodb_connection
+   JWT_SECRET=your_jwt_secret
+   PORT=5000
+   \`\`\`
+
+4. Start the server:
+   \`\`\`bash
+   npm start
+   \`\`\`
+" >> README.md
